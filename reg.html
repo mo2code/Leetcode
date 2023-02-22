@@ -1,0 +1,69 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reg.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="main">
+        <h1 class="title">Registration Form</h1>
+        <form action="#">
+        <div class="main_box">
+            <div class="input_field">
+                <span class="text"> Full Name</span>
+                <input type="text" placeholder="please enter your" required>
+            </div>
+            <div class="input_field">
+                <span class="text">Username</span>
+                <input type="text" placeholder="please enter your" required>
+            </div>
+            <div class="input_field">
+                <span class="text">Email</span>
+                <input type="email" placeholder="Email" required>
+            </div>
+            <div class="input_field">
+                <span class="text">Phone Number</span>
+                <input type="number" placeholder="Please enter your" required>
+            </div>
+            <div class="input_field">
+                <span class="text">Password</span>
+                <input type="password" placeholder="Please enter your" required>
+            </div>
+            <div class="input_field">
+                <span class="text">Confirm Password</span>
+                <input type="password" placeholder="Please enter your" required>
+            </div>
+        </div>
+
+            <div class="container">
+                <input type="radio" name="gender" id="circle-1">
+                <input type="radio" name="gender" id="circle-2">
+                <input type="radio" name="gender" id="circle-3">
+                <span class="gender">Gender</span>
+                <div class="category">
+                    <label for="circle-1">
+                        <span class="circle one"></span>
+                        <span class="male">Male</span>
+                    </label>
+                    <label for="circle-2">
+                        <span class="circle two"></span>
+                        <span class="female">Female</span>
+                    </label>
+                    <label for="circle-3">
+                        <span class="circle three"></span>
+                        <span class="other">Other</span>
+                    </label>
+                </div>
+            </div>
+            <div class="btn">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
